@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alarms</title>
+    <link rel="stylesheet" href="alaram.css">
+</head>
+<body>
+        <h1>Alarms</h1>
+        <input type="number" min='0' id="alrm_day" placeholder="Day in Numbers" value ='0' > <span>Day</span>
+        <input type="number" min='0' max='12' id="alrm_hour" placeholder="Hours"><span>Hours</span>
+        <input type="number" min="0" max='59' id="alrm_minute" placeholder="Minutes"><span>Minutes</span>    
+        <select name="amPm" id="am_pm">
+            <option value="am">AM</option>
+            <option value="pm">PM</option>
+        </select>
+        <button id="set"> set Alaram
+        </button>
+        <script src="alaram.js"></script>
+</body>
+</html>

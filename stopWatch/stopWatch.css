@@ -1,0 +1,54 @@
+body{
+    background-color:#4A89DC;
+    color : white;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    width:200px;
+    height:2%;
+    margin:2%;
+    padding: 1%;
+    display: inline-block;
+    border: 1px solid white;;
+    outline:none;
+    background-color:transparent;
+    color:white; 
+    transition: 1.5s ease-out;
+    cursor: pointer;
+}
+
+button:hover{
+background-color: rgba(255,255,255, 0.3);
+}
+
+h1,h3{
+    text-align: center;
+}
+h1{font-size: 300%;
+}
+#lap-box{
+    width:50%;
+    margin:0 auto;
+    height:300px;
+    overflow: auto;
+    background-color:rgba(255,255,255,0.1);
+    border: 1px solid white;
+
+}
+
+ul li {
+    list-style: none;
+    text-align: center;
+    color: white;;
+    font-size:200%;
+    width:89%;
+    padding:10px;
+    background:rgba(0,0,0,0.1); 
+}
+.btn-group{
+    width:76%;
+    position: relative;
+    margin:0 auto;
+}

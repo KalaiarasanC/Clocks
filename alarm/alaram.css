@@ -1,0 +1,46 @@
+body{
+    background-color:#4A89DC;
+    color : white;
+    margin: 0;
+    padding: 0;
+}
+
+button ,select {
+    width:200px;
+    height:2%;
+    margin:2%;
+    padding: 1%;
+    display: inline-block;
+    border: 1px solid white;;
+    outline:none;
+    background-color:transparent;
+    color:white; 
+    transition: 1.5s ease-out;
+    cursor: pointer;
+}
+
+select option{
+    position:absolute;
+    height:6%;
+
+}
+button:hover{
+background-color: rgba(255,255,255, 0.3);
+}
+
+h1,h3{
+    text-align: center;
+}
+h1{font-size: 300%;
+}
+input{
+    min-width:300px;
+    width:46%;
+    padding:10px;
+    margin:10px;
+    background-color: transparent;
+    border:none;
+    outline:none;
+    border-bottom: 1px solid white;
+    color:white;
+}
