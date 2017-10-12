@@ -1,0 +1,33 @@
+body {
+	background-color: rgba(101, 91, 241, 1);
+}
+
+div {
+	display: block;
+	width: 20%;
+	margin-top: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+}
+
+#canva {
+	width: 300px;
+	position: absolute;
+	top: 25%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	opacity: 0.6;
+}
+
+#canva:hover {
+	opacity: 1;
+}
+
+div #time {
+	width: 50%;
+	text-align: center;
+	color: white;
+	font-size: 200%;
+}
